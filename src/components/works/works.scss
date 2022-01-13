@@ -6,9 +6,10 @@
     position: relative;
 
     .arrow{
-        height: 50px;
-        width: 50px;
+        height: 80px;
+        width: 60px;
         position: absolute;
+        cursor: pointer;
 
         &.left{
             left: 200px;
@@ -30,7 +31,7 @@
         height: 350px;
         display: flex;
         position: absolute;
-        left: 0;
+        left: 0vw;
 
         .container{
             width: 100vw;
