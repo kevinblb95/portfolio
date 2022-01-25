@@ -59,7 +59,7 @@ const Works = () => {
                                 </div>
                             </div>
                             <div className="right ">
-                                <img src={d.img} />
+                                <img src={d.img} alt="" />
 
                             </div>
 
