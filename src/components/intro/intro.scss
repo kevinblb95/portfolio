@@ -104,10 +104,17 @@
             position: absolute;
             bottom:10px;
             left:40%;
+            display: flex;
+            justify-content: center;
 
             img{
                 width: 30px;
                 animation: arrowBlink 2s infinite;
+
+                @include mobile {
+                    width: 80px;
+                    
+                }
 
             }
             @keyframes arrowBlink {

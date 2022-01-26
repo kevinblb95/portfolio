@@ -82,6 +82,12 @@
                        flex-direction: column;
                        justify-content: space-between;
 
+                       p {
+                        @include mobile {
+                           display: none;
+                        }
+                       }
+
                        .imgContainer{
                            width: 60px;
                            height: 60px;
@@ -91,10 +97,16 @@
                            justify-content: center;
                            background-color: rgb(241, 160, 131);
 
+                           @include mobile {
+                            width: 30px;
+                            height: 30px;
+                        }
+
                            img{
-                                width: 25px;
+                                width: 15px;
                                 
                             }
+
                        }
                        h2{
                            font-size: 20px;
